@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Read_Source_Table_List",
+				"name": "Resd_Source_Table_List",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -36,7 +36,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Read_Source_Table_List",
+						"activity": "Resd_Source_Table_List",
 						"dependencyConditions": [
 							"Succeeded"
 						]
