@@ -186,7 +186,7 @@
 							"value": "@variables('start_time')",
 							"type": "Expression"
 						},
-						"merger_keys": {
+						"merge_keys": {
 							"value": "@coalesce(activity('Read Table Details').output.firstRow.merge_keys,'')",
 							"type": "Expression"
 						},
